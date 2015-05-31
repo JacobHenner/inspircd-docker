@@ -21,4 +21,4 @@ EXPOSE 6667 6697
 
 USER inspircd
 
-CMD ["/inspircd/bin/inspircd"]
+CMD ["/inspircd/bin/inspircd", "--nofork"]
